@@ -1,6 +1,6 @@
 # Masterplan Manual SisFour
 
-**Status:** Draft fondasi  
+**Status:** M0–M1 implemented / Draft PR — ready for review  
 **Tanggal acuan:** 23 September 2026  
 **Repository:** `Al-Faroz/sisfour-manual`  
 **Target URL:** `https://al-faroz.github.io/sisfour-manual/`
