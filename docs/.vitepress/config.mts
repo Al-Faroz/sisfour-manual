@@ -86,10 +86,54 @@ export default defineConfig({
         items: [
           { text: 'Daftar Modul', link: '/modul/' },
           { text: 'Dashboard', link: '/modul/dashboard/' },
-          { text: 'Master Data', link: '/modul/master-data/' },
-          { text: 'Manajemen Siswa', link: '/modul/manajemen-siswa/' },
-          { text: 'Presensi & Jurnal', link: '/modul/presensi-jurnal/' },
-          { text: 'Laporan & EWS', link: '/modul/laporan-ews/' },
+          {
+            text: 'Master Data',
+            collapsed: true,
+            items: [
+              { text: 'Ringkasan', link: '/modul/master-data/' },
+              { text: 'Guru', link: '/modul/master-data/guru' },
+              { text: 'Pegawai', link: '/modul/master-data/pegawai' },
+              { text: 'Siswa', link: '/modul/master-data/siswa' },
+              { text: 'Kelas', link: '/modul/master-data/kelas' },
+              { text: 'Tahun Ajaran', link: '/modul/master-data/tahun-ajaran' },
+              { text: 'Mata Pelajaran', link: '/modul/master-data/mata-pelajaran' },
+              { text: 'Wali Kelas', link: '/modul/master-data/wali-kelas' },
+              { text: 'Jadwal Guru', link: '/modul/master-data/jadwal-guru' }
+            ]
+          },
+          {
+            text: 'Manajemen Siswa',
+            collapsed: true,
+            items: [
+              { text: 'Ringkasan', link: '/modul/manajemen-siswa/' },
+              { text: 'Penempatan / Pindah', link: '/modul/manajemen-siswa/penempatan-pindah' },
+              { text: 'Kenaikan Kelas', link: '/modul/manajemen-siswa/kenaikan-kelas' },
+              { text: 'Mutasi', link: '/modul/manajemen-siswa/mutasi' },
+              { text: 'Kelulusan', link: '/modul/manajemen-siswa/kelulusan' },
+              { text: 'Restore Lifecycle', link: '/modul/manajemen-siswa/restore-lifecycle' }
+            ]
+          },
+          {
+            text: 'Presensi & Jurnal',
+            collapsed: true,
+            items: [
+              { text: 'Ringkasan', link: '/modul/presensi-jurnal/' },
+              { text: 'Presensi Siswa', link: '/modul/presensi-jurnal/presensi-siswa' },
+              { text: 'Revisi Presensi', link: '/modul/presensi-jurnal/revisi-presensi' },
+              { text: 'Jurnal Mengajar', link: '/modul/presensi-jurnal/jurnal-mengajar' }
+            ]
+          },
+          {
+            text: 'Laporan & EWS',
+            collapsed: true,
+            items: [
+              { text: 'Ringkasan', link: '/modul/laporan-ews/' },
+              { text: 'Rekap Presensi', link: '/modul/laporan-ews/rekap-presensi' },
+              { text: 'Matrix Presensi', link: '/modul/laporan-ews/matrix-presensi' },
+              { text: 'Laporan Jurnal', link: '/modul/laporan-ews/laporan-jurnal' },
+              { text: 'EWS Internal', link: '/modul/laporan-ews/ews-internal' }
+            ]
+          },
           { text: 'BK & Prestasi', link: '/modul/bk-prestasi/' },
           { text: 'UKS / Kesehatan', link: '/modul/uks/' },
           { text: 'PTSP', link: '/modul/ptsp/' },
