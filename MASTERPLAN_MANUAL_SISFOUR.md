@@ -1,6 +1,6 @@
 # Masterplan Manual SisFour
 
-**Status:** M0–M2 implemented / Draft PR — ready for review  
+**Status:** M0–M3 implemented / Draft PR — ready for review  
 **Tanggal acuan:** 23 September 2026  
 **Repository:** `Al-Faroz/sisfour-manual`  
 **Target URL:** `https://al-faroz.github.io/sisfour-manual/`
@@ -346,3 +346,79 @@ M2 dianggap siap direview bila:
 - VitePress build PASS;
 - PR tetap Draft;
 - belum ada deployment/merge tanpa approval eksplisit.
+
+
+## 15. M3 — Modul Inti Akademik
+
+M3 membuat halaman canonical untuk domain akademik inti agar role guide dan alur kerja dapat mengarah ke satu sumber instruksi.
+
+### Dashboard
+
+- pola dashboard current-state;
+- Quick Action permission-aware;
+- perbedaan dashboard vs laporan historis;
+- link ke role guide untuk prioritas experience.
+
+### Master Data
+
+Halaman canonical:
+
+- Guru;
+- Pegawai;
+- Siswa;
+- Kelas;
+- Tahun Ajaran / Semester;
+- Mata Pelajaran;
+- Mapping Wali Kelas;
+- Jadwal Guru.
+
+### Manajemen Siswa
+
+Halaman canonical:
+
+- Penempatan / Pindah Kelas;
+- Kenaikan Kelas;
+- Mutasi;
+- Kelulusan;
+- Restore Lifecycle.
+
+### Presensi & Jurnal
+
+Halaman canonical:
+
+- Presensi Siswa;
+- Revisi Presensi;
+- Jurnal Mengajar.
+
+Manual mengunci pemisahan data:
+
+```text
+Presensi Siswa Sesi Awal
+= sumber resmi Rekap / Matrix / EWS / Signage
+
+Exception siswa pada Jurnal
+= exception satu pembelajaran
+= tidak mengubah Presensi resmi
+```
+
+### Laporan & EWS
+
+Halaman canonical:
+
+- Rekap Presensi;
+- Matrix Presensi;
+- Laporan Jurnal;
+- EWS Internal.
+
+### Gate M3
+
+M3 dianggap siap direview bila:
+
+- seluruh link sidebar M3 mempunyai halaman;
+- lifecycle siswa tidak diarahkan melalui edit status/membership manual;
+- Sesi Awal tetap menjadi sumber Presensi resmi untuk laporan/EWS;
+- exception Jurnal tidak dipresentasikan sebagai Presensi resmi;
+- period context dan scope tidak diperluas oleh manual;
+- VitePress build PASS;
+- PR tetap Draft;
+- tidak ada deployment/merge tanpa approval eksplisit.
