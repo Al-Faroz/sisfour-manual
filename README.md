@@ -10,7 +10,7 @@ Target publikasi:
 
 `https://al-faroz.github.io/sisfour-manual/`
 
-M0–M1 sudah menyiapkan **VitePress 1.6.4**, sitemap, role/module shell, local search, dan visual awal berbasis Markdown. GitHub Pages belum diaktifkan; workflow deployment baru akan ditambahkan setelah review dan approval.
+M0–M2 sudah menyiapkan **VitePress 1.6.4**, sitemap, visual shell, panduan Mulai, role guides, local search, dan konten berbasis Markdown. GitHub Pages belum diaktifkan; workflow deployment baru akan ditambahkan setelah review dan approval.
 
 ## Pengembangan lokal
 
