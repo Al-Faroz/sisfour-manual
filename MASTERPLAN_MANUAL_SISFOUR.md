@@ -1,6 +1,6 @@
 # Masterplan Manual SisFour
 
-**Status:** M0–M1 implemented / Draft PR — ready for review  
+**Status:** M0–M2 implemented / Draft PR — ready for review  
 **Tanggal acuan:** 23 September 2026  
 **Repository:** `Al-Faroz/sisfour-manual`  
 **Target URL:** `https://al-faroz.github.io/sisfour-manual/`
@@ -291,3 +291,58 @@ M1 dianggap siap direview bila:
 - PR tetap Draft;
 - tidak ada workflow deploy/Pages activation;
 - tidak ada merge tanpa approval eksplisit.
+
+
+## 14. M2 — Mulai + Role Guides
+
+M2 mengubah shell M1 menjadi panduan orientasi dan panduan role yang dapat digunakan.
+
+### Konten Mulai
+
+Halaman aktif:
+
+- Tentang SisFour;
+- Mengakses SisFour;
+- Login & Logout;
+- Mengenal Antarmuka;
+- Tahun Ajaran & Periode;
+- Hak Akses Pengguna.
+
+Konten menjelaskan perbedaan public/authenticated surface, period context, state UI, multi-role, scope, serta alasan menu dapat berbeda antar akun.
+
+### Role Guides
+
+Halaman aktif:
+
+- Administrator;
+- Operator;
+- Pimpinan;
+- BK;
+- Guru;
+- Guru + Wali Kelas;
+- Siswa;
+- Kesehatan;
+- PTSP.
+
+Setiap role guide memakai pola:
+
+```text
+Tujuan role
+→ Dashboard / prioritas
+→ Alur kerja
+→ Modul terkait
+→ Batas akses
+→ Troubleshooting context
+```
+
+### Gate M2
+
+M2 dianggap siap direview bila:
+
+- seluruh halaman Mulai mempunyai konten operasional;
+- seluruh role/context canonical mempunyai role guide;
+- tidak ada panduan yang memberi capability di luar SSOT;
+- boundary Konseling, UKS, PTSP, dan Wali tetap benar;
+- VitePress build PASS;
+- PR tetap Draft;
+- belum ada deployment/merge tanpa approval eksplisit.
