@@ -87,13 +87,14 @@ Target halaman:
 
 ### BK & Prestasi
 
-- Master Pelanggaran
-- Catatan Pelanggaran Siswa
-- Tindak Lanjut Pelanggaran
-- Konseling BK
-- Tindak Lanjut Konseling
-- Pengaturan Form Konseling
-- Prestasi Siswa
+- `/modul/bk-prestasi/master-pelanggaran` — Master Pelanggaran
+- `/modul/bk-prestasi/catatan-pelanggaran` — Catatan Pelanggaran Siswa
+- `/modul/bk-prestasi/tindak-lanjut-pelanggaran` — Tindak Lanjut Pelanggaran
+- `/modul/bk-prestasi/konseling` — Konseling BK
+- `/modul/bk-prestasi/tindak-lanjut-konseling` — Tindak Lanjut Konseling
+- `/modul/bk-prestasi/pengaturan-form-konseling` — Pengaturan Form Konseling
+- `/modul/bk-prestasi/prestasi` — Prestasi Siswa
+- `/modul/bk-prestasi/ews-bk` — EWS untuk BK
 
 ### UKS / Kesehatan
 
