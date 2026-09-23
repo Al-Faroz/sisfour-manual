@@ -18,3 +18,12 @@
 - landing modul;
 - visual card/grid SisFour;
 - tidak ada deployment GitHub Pages.
+
+### M2 — Mulai + Role Guides
+
+- halaman Mulai diperluas menjadi orientasi penggunaan;
+- Login/Logout, Antarmuka, Tahun Ajaran, dan Hak Akses dijelaskan lebih operasional;
+- panduan lengkap untuk Admin, Operator, Pimpinan, BK, Guru, Guru+Wali, Siswa, Kesehatan, dan PTSP;
+- reusable flow/checklist/link components untuk halaman panduan;
+- access boundary dan privacy constraint ditautkan ke pengalaman role;
+- belum ada deployment GitHub Pages.
