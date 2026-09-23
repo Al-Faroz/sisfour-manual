@@ -49,43 +49,41 @@ Target halaman:
 
 ### Dashboard
 
-- Dashboard sesuai role/experience
-- Quick action dan current-state Tahun Ajaran aktif
+- `/modul/dashboard/` — Dashboard sesuai role/experience
+- Quick Action dan current-state Tahun Ajaran aktif
 
 ### Master Data
 
-- Guru
-- Pegawai
-- Siswa
-- Kelas
-- Tahun Ajaran / Semester
-- Mata Pelajaran
-- Mapping Wali Kelas
-- Jadwal Guru
+- `/modul/master-data/guru` — Guru
+- `/modul/master-data/pegawai` — Pegawai
+- `/modul/master-data/siswa` — Siswa
+- `/modul/master-data/kelas` — Kelas
+- `/modul/master-data/tahun-ajaran` — Tahun Ajaran / Semester
+- `/modul/master-data/mata-pelajaran` — Mata Pelajaran
+- `/modul/master-data/wali-kelas` — Mapping Wali Kelas
+- `/modul/master-data/jadwal-guru` — Jadwal Guru
 
 ### Manajemen Siswa
 
-- Penempatan / pindah kelas
-- Kenaikan kelas
-- Mutasi
-- Kelulusan
-- Restore lifecycle terminal bila tersedia sesuai capability
+- `/modul/manajemen-siswa/penempatan-pindah` — Penempatan / pindah kelas
+- `/modul/manajemen-siswa/kenaikan-kelas` — Kenaikan kelas
+- `/modul/manajemen-siswa/mutasi` — Mutasi
+- `/modul/manajemen-siswa/kelulusan` — Kelulusan
+- `/modul/manajemen-siswa/restore-lifecycle` — Restore lifecycle terminal
 
 ### Presensi & Jurnal
 
-- Presensi Siswa — Sesi Awal
-- Presensi Siswa — Sesi Akhir
-- Revisi Presensi
-- Presensi Mengajar / Jurnal
-- Exception siswa pada jurnal
+- `/modul/presensi-jurnal/presensi-siswa` — Presensi Siswa Sesi Awal/Sesi Akhir
+- `/modul/presensi-jurnal/revisi-presensi` — Revisi Presensi
+- `/modul/presensi-jurnal/jurnal-mengajar` — Presensi Mengajar / Jurnal + exception siswa
 
 ### Laporan & EWS
 
-- Rekap Presensi
-- Matrix Presensi
-- Laporan Jurnal
-- EWS internal
-- Export sesuai permission
+- `/modul/laporan-ews/rekap-presensi` — Rekap Presensi
+- `/modul/laporan-ews/matrix-presensi` — Matrix Presensi
+- `/modul/laporan-ews/laporan-jurnal` — Laporan Jurnal
+- `/modul/laporan-ews/ews-internal` — EWS internal
+- Export mengikuti permission dan Tahun Ajaran terpilih
 
 ### BK & Prestasi
 
