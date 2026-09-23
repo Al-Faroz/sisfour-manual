@@ -38,3 +38,15 @@
 - sidebar Modul diperluas sampai subhalaman M3;
 - contract Presensi resmi vs exception Jurnal ditegaskan;
 - belum ada deployment GitHub Pages.
+
+### M4 — BK + Prestasi + EWS
+
+- Master Pelanggaran mendapat panduan tanpa poin;
+- Catatan Pelanggaran dan histori Tindak Lanjut mendapat halaman canonical;
+- Konseling BK dua tahap dan Tindak Lanjut 1:N didokumentasikan;
+- access boundary Konseling Admin/Operator/BK ditegaskan;
+- Pengaturan Form Konseling dan preservasi opsi historis didokumentasikan;
+- Prestasi periodik mendapat panduan canonical;
+- EWS untuk BK dijelaskan sebagai sinyal, bukan keputusan otomatis;
+- sidebar BK & Prestasi diperluas;
+- belum ada deployment GitHub Pages.
