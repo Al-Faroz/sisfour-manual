@@ -134,7 +134,21 @@ export default defineConfig({
               { text: 'EWS Internal', link: '/modul/laporan-ews/ews-internal' }
             ]
           },
-          { text: 'BK & Prestasi', link: '/modul/bk-prestasi/' },
+          {
+            text: 'BK & Prestasi',
+            collapsed: true,
+            items: [
+              { text: 'Ringkasan', link: '/modul/bk-prestasi/' },
+              { text: 'Master Pelanggaran', link: '/modul/bk-prestasi/master-pelanggaran' },
+              { text: 'Catatan Pelanggaran', link: '/modul/bk-prestasi/catatan-pelanggaran' },
+              { text: 'Tindak Lanjut Pelanggaran', link: '/modul/bk-prestasi/tindak-lanjut-pelanggaran' },
+              { text: 'Konseling BK', link: '/modul/bk-prestasi/konseling' },
+              { text: 'Tindak Lanjut Konseling', link: '/modul/bk-prestasi/tindak-lanjut-konseling' },
+              { text: 'Pengaturan Form Konseling', link: '/modul/bk-prestasi/pengaturan-form-konseling' },
+              { text: 'Prestasi Siswa', link: '/modul/bk-prestasi/prestasi' },
+              { text: 'EWS untuk BK', link: '/modul/bk-prestasi/ews-bk' }
+            ]
+          },
           { text: 'UKS / Kesehatan', link: '/modul/uks/' },
           { text: 'PTSP', link: '/modul/ptsp/' },
           { text: 'Kartu Pelajar', link: '/modul/kartu/' },
