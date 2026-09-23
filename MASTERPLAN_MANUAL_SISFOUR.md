@@ -1,6 +1,6 @@
 # Masterplan Manual SisFour
 
-**Status:** M0–M3 implemented / Draft PR — ready for review  
+**Status:** M0–M4 implemented / Draft PR — ready for review  
 **Tanggal acuan:** 23 September 2026  
 **Repository:** `Al-Faroz/sisfour-manual`  
 **Target URL:** `https://al-faroz.github.io/sisfour-manual/`
@@ -419,6 +419,64 @@ M3 dianggap siap direview bila:
 - Sesi Awal tetap menjadi sumber Presensi resmi untuk laporan/EWS;
 - exception Jurnal tidak dipresentasikan sebagai Presensi resmi;
 - period context dan scope tidak diperluas oleh manual;
+- VitePress build PASS;
+- PR tetap Draft;
+- tidak ada deployment/merge tanpa approval eksplisit.
+
+
+## 16. M4 — BK + Prestasi + EWS
+
+M4 membuat halaman canonical untuk workflow BK dan Prestasi, sekaligus mengunci boundary kerahasiaan Konseling.
+
+### Halaman canonical
+
+- Master Pelanggaran;
+- Catatan Pelanggaran Siswa;
+- Tindak Lanjut Pelanggaran;
+- Konseling BK;
+- Tindak Lanjut Konseling;
+- Pengaturan Form Konseling;
+- Prestasi Siswa;
+- EWS untuk BK.
+
+### Contract utama
+
+```text
+Master Pelanggaran
+= nama + kategori
+= tanpa poin
+
+Catatan Pelanggaran
+= periodik + histori tindak lanjut
+= tanpa poin/ranking
+
+Konseling BK
+= Admin / Operator / BK + permission
+= rahasia
+= create/update
+= tidak ada delete parent/follow-up
+
+Prestasi
+= periodik
+= create snapshot Tahun Ajaran aktif
+= listing/export mengikuti periode terpilih
+
+EWS BK
+= sinyal pemeriksaan
+= tidak otomatis membuat Pelanggaran/Konseling
+```
+
+### Gate M4
+
+M4 dianggap siap direview bila:
+
+- seluruh link sidebar BK/Prestasi mempunyai halaman;
+- poin/ranking tidak dihidupkan kembali;
+- Konseling tidak diperluas ke Pimpinan/Guru/Wali/Siswa;
+- tidak ada delete Konseling/tindak lanjut yang didokumentasikan;
+- historical Rencana Berikutnya tetap dipreservasi;
+- Tahun Ajaran listing/export/create mengikuti contract;
+- EWS dipresentasikan sebagai sinyal, bukan keputusan otomatis;
 - VitePress build PASS;
 - PR tetap Draft;
 - tidak ada deployment/merge tanpa approval eksplisit.
