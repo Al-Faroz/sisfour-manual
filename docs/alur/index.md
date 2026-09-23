@@ -1,20 +1,37 @@
-# Alur Kerja
+# Alur Kerja SisFour
 
-Bagian ini menjelaskan proses dari awal sampai selesai, termasuk langkah yang melibatkan beberapa modul.
+Gunakan bagian ini ketika Anda ingin menyelesaikan **suatu proses dari awal sampai selesai**, terutama proses yang melibatkan beberapa modul.
 
-## Target alur
+## Siklus akademik
 
 - Persiapan awal tahun ajaran
 - Persiapan semester
+- Penempatan / pindah kelas
 - Kenaikan kelas
 - Kelulusan
+
+## Operasional harian
+
 - Presensi siswa
 - Jurnal mengajar
-- Monitoring EWS
-- Penanganan BK
-- Konseling
+- Rekap, Matrix, dan EWS
+
+## Pendampingan siswa
+
+- Penanganan Catatan Pelanggaran
+- Konseling dan tindak lanjut
+- Pencatatan Prestasi
+
+## Layanan khusus
+
 - Pelayanan UKS
 - Pelayanan PTSP
 - Penerbitan Kartu Pelajar
 
-Setiap alur akan menghubungkan ke halaman fitur yang relevan agar informasi tidak diduplikasi.
+## Monitoring pimpinan
+
+- Statistik eksekutif
+- EWS Signage
+
+> [!NOTE]
+> M1 mengunci struktur alurnya. Langkah detail akan diisi pada milestone konten berikutnya dan akan mengarah ke halaman fitur canonical agar instruksi tidak diduplikasi.

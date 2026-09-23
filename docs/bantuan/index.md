@@ -1,14 +1,10 @@
 # Pusat Bantuan
 
-Bagian bantuan akan memuat informasi yang paling sering dicari ketika pengguna mengalami kendala.
+Gunakan bagian ini untuk mencari jawaban cepat ketika Anda mengalami kendala atau menemukan istilah yang belum dikenal.
 
-## Target konten
-
-- FAQ
-- Masalah login
-- Masalah data tidak muncul
-- Troubleshooting per modul
-- Istilah yang digunakan SisFour
-- Riwayat perubahan manual
-
-Saat troubleshooting ditulis, solusi harus mengikuti behavior aplikasi yang sudah diverifikasi dan tidak boleh menyarankan bypass terhadap permission atau business rule.
+<div class="sf-grid">
+  <a class="sf-card" href="./faq.html"><strong>FAQ</strong><span>Pertanyaan umum tentang penggunaan SisFour.</span></a>
+  <a class="sf-card" href="./troubleshooting.html"><strong>Troubleshooting</strong><span>Langkah pemeriksaan ketika fitur tidak berjalan seperti yang diharapkan.</span></a>
+  <a class="sf-card" href="./glosarium.html"><strong>Glosarium</strong><span>Istilah penting di SisFour.</span></a>
+  <a class="sf-card" href="./changelog.html"><strong>Riwayat Perubahan</strong><span>Perubahan penting pada website manual.</span></a>
+</div>

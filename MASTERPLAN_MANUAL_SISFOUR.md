@@ -237,3 +237,57 @@ Fondasi dianggap siap untuk tahap konten bila:
 - Sitemap tingkat atas tersedia.
 - Struktur file mudah dikembangkan.
 - Tidak ada deployment sebelum approval.
+
+## 13. M1 — Sitemap & Visual Shell
+
+Status M1 ditujukan untuk mengunci struktur informasi sebelum penulisan konten detail.
+
+### Sitemap terkunci
+
+```text
+Beranda
+├── Mulai
+├── Panduan Berdasarkan Role
+├── Alur Kerja
+├── Modul
+│   ├── Dashboard
+│   ├── Master Data
+│   ├── Manajemen Siswa
+│   ├── Presensi & Jurnal
+│   ├── Laporan & EWS
+│   ├── BK & Prestasi
+│   ├── UKS / Kesehatan
+│   ├── PTSP
+│   ├── Kartu Pelajar
+│   ├── Statistik & Signage
+│   ├── Profil & Personalia
+│   └── Pengaturan Sistem
+├── Aplikasi Mobile
+└── Bantuan
+```
+
+Sitemap detail disimpan di `docs/sitemap.md`.
+
+### Visual shell
+
+M1 menetapkan:
+
+- warna brand awal mengikuti keluarga warna UI SisFour/Sneat;
+- homepage hero + tiga jalur pencarian informasi;
+- role grid;
+- module cards;
+- local search berbahasa Indonesia;
+- sidebar responsif dan dark mode dari VitePress;
+- branding gambar/logo tetap menunggu aset resmi dari pengguna.
+
+### Gate M1
+
+M1 dianggap siap direview bila:
+
+- seluruh link sidebar M1 memiliki halaman;
+- VitePress build PASS;
+- tidak ada broken internal link;
+- base path tetap `/sisfour-manual/`;
+- PR tetap Draft;
+- tidak ada workflow deploy/Pages activation;
+- tidak ada merge tanpa approval eksplisit.

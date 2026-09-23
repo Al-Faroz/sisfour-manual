@@ -1,19 +1,27 @@
 # Aplikasi Mobile
 
-SisFour menggunakan aplikasi web yang sama sebagai dasar pengalaman Android/Cordova. Karena itu, panduan fitur bisnis tidak akan diduplikasi seluruhnya.
+SisFour Android/Cordova menggunakan aplikasi web yang sama sebagai dasar pengalaman, sehingga panduan bisnis tidak diduplikasi menjadi manual kedua.
 
-## Bagian khusus mobile
+## Yang sama dengan web
 
-Konten akan dilengkapi setelah G4 stabil, termasuk:
+- role dan permission;
+- scope data;
+- business rule;
+- fitur bisnis;
+- Tahun Ajaran dan period context.
 
-- Instalasi aplikasi
-- Login
-- Navigasi dan tombol Back
-- Perizinan perangkat
-- Keyboard dan safe area
-- Download / file / share
-- Link eksternal
-- Kondisi jaringan dan offline
-- Update aplikasi
+## Yang akan didokumentasikan khusus pada G4
 
-Sementara G4 belum final, halaman ini menjadi placeholder resmi untuk dokumentasi mobile.
+- instalasi APK;
+- login/session di WebView;
+- Android Back;
+- keyboard dan safe area;
+- permission perangkat;
+- geolocation bila digunakan;
+- download / share / file;
+- external link / intent;
+- kondisi jaringan/offline;
+- update aplikasi.
+
+> [!NOTE]
+> G4 belum menjadi bagian konten final pada M1. Halaman ini menjadi tempat resmi dokumentasi mobile agar tidak terjadi duplikasi struktur.
