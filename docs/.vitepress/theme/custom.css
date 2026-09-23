@@ -179,3 +179,90 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+/* M2 — reusable guide patterns */
+.sf-flow {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 26px;
+  counter-reset: sf-step;
+}
+
+.sf-flow > div {
+  position: relative;
+  padding: 14px 16px 14px 52px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+}
+
+.sf-flow > div::before {
+  counter-increment: sf-step;
+  content: counter(sf-step);
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.sf-flow strong {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.sf-checklist {
+  margin: 16px 0 26px;
+  padding: 0;
+  list-style: none;
+}
+
+.sf-checklist li {
+  position: relative;
+  margin: 8px 0;
+  padding-left: 28px;
+}
+
+.sf-checklist li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--vp-c-brand-1);
+  font-weight: 800;
+}
+
+.sf-guide-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 16px 0 24px;
+}
+
+.sf-guide-links a {
+  display: block;
+  padding: 12px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  color: var(--vp-c-text-1) !important;
+  text-decoration: none !important;
+}
+
+.sf-guide-links a:hover {
+  border-color: var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+}
+
+@media (max-width: 640px) {
+  .sf-guide-links {
+    grid-template-columns: 1fr;
+  }
+}

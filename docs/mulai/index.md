@@ -1,15 +1,29 @@
+---
+title: Mulai Menggunakan SisFour
+status: active
+---
+
 # Mulai Menggunakan SisFour
 
-Bagian ini membantu pengguna memahami dasar SisFour sebelum masuk ke modul tertentu.
+Bagian ini adalah jalur orientasi singkat sebelum Anda memakai fitur operasional.
 
-<div class="sf-grid">
-  <a class="sf-card" href="./tentang-sisfour.html"><strong>Tentang SisFour</strong><span>Kenali tujuan aplikasi dan cakupan layanan.</span></a>
-  <a class="sf-card" href="./mengakses-sisfour.html"><strong>Mengakses SisFour</strong><span>Surface web, public PTSP, dan arah menuju aplikasi mobile.</span></a>
-  <a class="sf-card" href="./login-logout.html"><strong>Login & Logout</strong><span>Masuk ke sistem dan mengakhiri sesi dengan aman.</span></a>
-  <a class="sf-card" href="./antarmuka.html"><strong>Mengenal Antarmuka</strong><span>Sidebar, navbar, dashboard, filter, tabel, dan aksi.</span></a>
-  <a class="sf-card" href="./tahun-ajaran.html"><strong>Tahun Ajaran & Periode</strong><span>Pahami periode aktif dan data historis.</span></a>
-  <a class="sf-card" href="./hak-akses.html"><strong>Hak Akses Pengguna</strong><span>Role, permission, scope, dan konteks Wali Kelas.</span></a>
+<div class="sf-flow">
+  <div><strong>Kenali SisFour</strong>Pahami fungsi utama aplikasi dan surface yang tersedia.</div>
+  <div><strong>Masuk ke sistem</strong>Gunakan akun yang diberikan dan pastikan sesi berhasil dibuat.</div>
+  <div><strong>Kenali antarmuka</strong>Pahami sidebar, dashboard, filter, action, serta state loading/error.</div>
+  <div><strong>Pahami Tahun Ajaran</strong>Pastikan data periodik dibaca pada periode yang benar.</div>
+  <div><strong>Pilih panduan role</strong>Lanjutkan ke panduan sesuai pekerjaan Anda.</div>
 </div>
 
-> [!TIP]
-> Jika Anda sudah tahu role yang digunakan, Anda dapat langsung membuka [Panduan Berdasarkan Role](/role/).
+<div class="sf-grid">
+  <a class="sf-card" href="./tentang-sisfour.html"><strong>Tentang SisFour</strong><span>Tujuan, cakupan, dan surface aplikasi.</span></a>
+  <a class="sf-card" href="./mengakses-sisfour.html"><strong>Mengakses SisFour</strong><span>Web internal, public PTSP, Signage, dan arah mobile.</span></a>
+  <a class="sf-card" href="./login-logout.html"><strong>Login & Logout</strong><span>Masuk, mengenali sesi berhasil, dan keluar dengan aman.</span></a>
+  <a class="sf-card" href="./antarmuka.html"><strong>Mengenal Antarmuka</strong><span>Sidebar, navbar, dashboard, filter, tabel/list, dan aksi.</span></a>
+  <a class="sf-card" href="./tahun-ajaran.html"><strong>Tahun Ajaran & Periode</strong><span>Data aktif, histori, Reset, dan export periodik.</span></a>
+  <a class="sf-card" href="./hak-akses.html"><strong>Hak Akses Pengguna</strong><span>Role, permission, scope, identity, dan konteks Wali.</span></a>
+</div>
+
+## Setelah selesai
+
+Buka [Panduan Berdasarkan Role](/role/) untuk melihat alur yang paling relevan dengan pekerjaan Anda.
